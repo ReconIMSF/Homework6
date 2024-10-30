@@ -64,8 +64,8 @@ public class Main {
         }
         //Задача 9
         System.out.println("Задача 9");
-        int totalWithInterest = 0;
-        for (int e = 0; e < 12; e++) {
+        double totalWithInterest = 0;
+        for (int e = 0; e <= 12; e++) {
             totalWithInterest = totalWithInterest + totalWithInterest/100;
             totalWithInterest = totalWithInterest + income;
             System.out.println("Месяц " + e + ", сумма накоплений равна " + totalWithInterest + " рублей");
